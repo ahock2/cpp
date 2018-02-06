@@ -27,19 +27,19 @@ using namespace std;
 
 int main(int argc, char** argv) {
     int input;
-    int NextPrime;
+    bool NextPrime;
     cout << "Please enter an integer" << endl;
     cin >> input;
     int i = input + 1;
     while(true)
     {
-        NextPrime = 1;
+        NextPrime = true;
         for (int j = 2; j < i; j++)
         {
             if (i%j == 0)
-                NextPrime=0;
+                NextPrime = false;
         }
-        if (NextPrime == 1)
+        if (NextPrime == true)
         {
             cout << "The next prime number is " << i << endl;
             break;
