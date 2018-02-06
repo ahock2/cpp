@@ -26,7 +26,7 @@ using namespace std;
 
 int main(int argc, char** argv) {
 
-    int input, end;
+    int input;
     double place = exp (1);
     while(true)
     {
