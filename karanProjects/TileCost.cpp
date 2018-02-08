@@ -24,14 +24,6 @@
 
 using namespace std;
 
-/*
- This program accepts a width and length of a floor and the length of each square tile and outputs how many square
- tiles are needed to fill the room, and also shows how much spare room is left 
- for the length and width.
- * 
- The user then inputs the cost of each tile,
- and the program outputs how much it will cost. 
- */
 int main(int argc, char** argv) {
     int length, width, Tlength, tiles; 
     double Ltiles, Wtiles, price, cost, Lspare, Wspare;
